@@ -1,0 +1,6 @@
+{
+  "name": "Docker-mkdocs",
+  "tagline": "Deploy .md files using MkDocs and nginx",
+  "body": "# docker-mkdocs\r\nDeploy .md files using MkDocs and nginx in a docker container\r\n\r\n## prerequisites\r\n\r\n* Docker for Mac or Windows (v1.12.0-rc2 or above)\r\n\r\n### usage\r\n\r\n`$ docker build -t mkdocs:1.0 .`\r\n\r\n`$ docker run -d -p 8080:80 -t mkdocs:1.0`\r\n\r\nopen the browser and hit [port 8080](http://localhost:8080)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
