@@ -1,0 +1,8 @@
+site_name: Docs Demo
+site_description: Documentation about something
+copyright: Copyright &copy; 2016 Some Company
+pages:
+- Home: index.md
+- Introduction: introduction.md
+- Quickstart: quickstart.md
+theme: material
